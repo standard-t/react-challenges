@@ -1,0 +1,18 @@
+.content-offset {
+    padding-left: 150px;
+    padding-top: 30px;
+}
+
+.full-screen {
+    height: 100vh;
+    width: 80%;
+}
+
+.point {
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background: rgb(231, 41, 218)
+}

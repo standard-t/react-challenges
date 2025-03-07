@@ -1,54 +1,14 @@
-# React + TypeScript + Vite
+View current project here --> https://a3--tstandard-kambaz-web-app.netlify.app/#/ 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a front-end web application built with HTML, React.js, Bootstrap, JavaScript, and TypeScript, designed to replicate the core functionality of the popular academic management platform Canvas. The app currently focuses on the user interface (UI) for managing courses, assignments, grades, and student profiles, providing a responsive and intuitive design for both students and instructors.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+<strong> Key Features (UI): </strong> <br/>
+- Course navigation including modules, assignments, people <br/>
+- Assignment submission and creation interface <br/>
+- User profile management UI <br/>
+- Responsive and modern design with Bootstrap <br/>
+  
+<strong> Future Development: </strong> <br/>
+In the future, I will be implementing the back-end of the application using MongoDB, JavaScript, and APIs to enable real-time data storage, retrieval, and user authentication. The goal is to create a fully functional academic management platform with seamless integration between front-end and back-end systems.
+<br/> <br/>
+This project demonstrates the use of React.js and TypeScript for dynamic front-end development, while setting the stage for a complete full-stack solution.
