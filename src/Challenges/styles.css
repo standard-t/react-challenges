@@ -16,3 +16,29 @@
     height: 30px;
     background: rgb(231, 41, 218)
 }
+
+.guess-options {
+    padding: 15px;
+}
+
+.lines {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+.guess-me {
+    width: 300px;
+    height: 200px;
+}
+
+.colors-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colors-main {
+    display: flex;
+    justify-content: center;
+}

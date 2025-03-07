@@ -7,8 +7,10 @@ export default function Navigation() {
 
     const { pathname } = useLocation();
     const links = [
+        { to: "/Challenges/Counter", text: "Counter" },
+        { to: "/Challenges/Shopping", text: "Shopping" },
         { to: "/Challenges/Circles", text: "Circles" },
-        { to: "/Challenges/Checkout", text: "Checkout" }
+        { to: "/Challenges/Colors", text: "Colors" },
     ]
 
     return (

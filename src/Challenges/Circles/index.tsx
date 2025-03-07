@@ -38,6 +38,7 @@ export default function Circles() {
     return (
         <>
             <h2>Circles</h2>
+            <p> click anywhere to place a circle!</p>
             <Button className="m-1" disabled={points.length === 0} onClick={handleUndo}>Undo</Button>
             <Button className="m-1" disabled={popped.length === 0} onClick={handleRedo}>Redo</Button>
             <div className="full-screen" onClick={handlePlaceCircle} >
