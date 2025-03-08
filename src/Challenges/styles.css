@@ -25,6 +25,7 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 20px;
+    margin-top: 50px;
 }
 
 .guess-me {
@@ -41,4 +42,34 @@
 .colors-main {
     display: flex;
     justify-content: center;
+}
+
+.selected {
+    background: #009BFF;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+
+}
+
+.default {
+    background: #d3d3d3;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+
+}
+
+.wrong {
+    background: #db5a5a;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+}
+
+.numbers {
+    background: #8486f6;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 30%;
 }

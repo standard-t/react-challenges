@@ -11,6 +11,10 @@ export default function Navigation() {
         { to: "/Challenges/Shopping", text: "Shopping" },
         { to: "/Challenges/Circles", text: "Circles" },
         { to: "/Challenges/Colors", text: "Colors" },
+        { to: "/Challenges/Thesaurus", text: "Thesaurus" },
+        { to: "/Challenges/Checkout", text: "Checkout" },
+        { to: "/Challenges/Countries", text: "Countries" },
+        { to: "/Challenges/Passcode", text: "Passcode" },
     ]
 
     return (
